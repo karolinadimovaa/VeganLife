@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vYdfNnF5H1CwaFUAk2cm6koXr30B3Eayox4chUnVMNYZzk0ybkvW3bWPOsrLFmlCVUmwSC/73ofBE3K9NCeaFQ==",
+  "success": true,
+  "projectFilePath": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services\\VeganLife.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

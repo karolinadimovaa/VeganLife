@@ -1,0 +1,12 @@
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\bin\Debug\net6.0\VeganLife.Services.Mapping.deps.json
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\bin\Debug\net6.0\VeganLife.Services.Mapping.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\bin\Debug\net6.0\VeganLife.Services.Mapping.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.csproj.AssemblyReference.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.AssemblyInfoInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.AssemblyInfo.cs
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\refint\VeganLife.Services.Mapping.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\VeganLife.Services.Mapping.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Mapping\obj\Debug\net6.0\ref\VeganLife.Services.Mapping.dll

@@ -1,0 +1,12 @@
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\bin\Debug\net6.0\VeganLife.Services.deps.json
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\bin\Debug\net6.0\VeganLife.Services.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\bin\Debug\net6.0\VeganLife.Services.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.csproj.AssemblyReference.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.AssemblyInfoInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.AssemblyInfo.cs
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.csproj.CoreCompileInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\refint\VeganLife.Services.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\VeganLife.Services.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services\obj\Debug\net6.0\ref\VeganLife.Services.dll

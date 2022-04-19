@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LvKE3DGUJyXL3xZt2seb/Ii7AhTOjOB+hQAXliJGhPIfdRUO+nc7O1tSGVhZ1iZWiTboNMHIZU9bnz03njRFWQ==",
+  "success": true,
+  "projectFilePath": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Mapping\\VeganLife.Services.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\karol\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

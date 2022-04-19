@@ -1,0 +1,12 @@
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\bin\Debug\net6.0\VeganLife.Web.Infrastructure.deps.json
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\bin\Debug\net6.0\VeganLife.Web.Infrastructure.dll
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\bin\Debug\net6.0\VeganLife.Web.Infrastructure.pdb
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.csproj.AssemblyReference.cache
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.AssemblyInfo.cs
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.dll
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\refint\VeganLife.Web.Infrastructure.dll
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\VeganLife.Web.Infrastructure.pdb
+C:\SoftUniProject\VeganLife\Web\VeganLife.Web.Infrastructure\obj\Debug\net6.0\ref\VeganLife.Web.Infrastructure.dll

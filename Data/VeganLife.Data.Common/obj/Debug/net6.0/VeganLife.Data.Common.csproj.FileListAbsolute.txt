@@ -1,0 +1,12 @@
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\bin\Debug\net6.0\VeganLife.Data.Common.deps.json
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\bin\Debug\net6.0\VeganLife.Data.Common.dll
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\bin\Debug\net6.0\VeganLife.Data.Common.pdb
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.csproj.AssemblyReference.cache
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.AssemblyInfoInputs.cache
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.AssemblyInfo.cs
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.csproj.CoreCompileInputs.cache
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.dll
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\refint\VeganLife.Data.Common.dll
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\VeganLife.Data.Common.pdb
+C:\SoftUniProject\VeganLife\Data\VeganLife.Data.Common\obj\Debug\net6.0\ref\VeganLife.Data.Common.dll

@@ -1,0 +1,12 @@
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\bin\Debug\net6.0\VeganLife.Services.Messaging.deps.json
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\bin\Debug\net6.0\VeganLife.Services.Messaging.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\bin\Debug\net6.0\VeganLife.Services.Messaging.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.csproj.AssemblyReference.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.AssemblyInfoInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.AssemblyInfo.cs
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\refint\VeganLife.Services.Messaging.dll
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\VeganLife.Services.Messaging.pdb
+C:\SoftUniProject\VeganLife\Services\VeganLife.Services.Messaging\obj\Debug\net6.0\ref\VeganLife.Services.Messaging.dll
