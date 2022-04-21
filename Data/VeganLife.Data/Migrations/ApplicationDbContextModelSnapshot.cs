@@ -377,11 +377,11 @@ namespace VeganLife.Data.Migrations
                     b.Property<string>("AddedByUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int>("CaloriesPerPortion")
                         .HasColumnType("int");
 
-                    b.Property<TimeSpan>("CookingTime")
-                        .HasColumnType("time");
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
@@ -407,7 +407,7 @@ namespace VeganLife.Data.Migrations
                     b.Property<int>("PortionsCount")
                         .HasColumnType("int");
 
-                    b.Property<TimeSpan>("PreparationTime")
+                    b.Property<TimeSpan>("TotalCookingTime")
                         .HasColumnType("time");
 
                     b.HasKey("Id");

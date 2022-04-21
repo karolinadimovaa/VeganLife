@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\VeganLife.Data.Common\VeganLife.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\VeganLife.Data.Models\VeganLife.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\VeganLife.Web.ViewModels\VeganLife.Web.ViewModels.csproj" />
     <ProjectReference Include="..\VeganLife.Services.Mapping\VeganLife.Services.Mapping.csproj" />
   </ItemGroup>
 

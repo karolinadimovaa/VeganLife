@@ -4,28 +4,32 @@
     using System.Linq;
     using Microsoft.AspNetCore.Mvc;
     using VeganLife.Data;
+    using VeganLife.Data.Common.Repositories;
+    using VeganLife.Data.Models;
+    using VeganLife.Services.Data;
     using VeganLife.Web.ViewModels;
     using VeganLife.Web.ViewModels.Home;
 
     public class HomeController : BaseController
     {
-        private readonly ApplicationDbContext db;
+        private readonly IGetCountsService countsService;
 
-        public HomeController(ApplicationDbContext db)
+        public HomeController(IGetCountsService countsService)
         {
-            this.db = db;
+            this.countsService = countsService;
         }
 
         public IActionResult Index()
         {
+            var countsDto = this.countsService.GetCounts();
             var viewModel = new IndexViewModel
             {
-                CategoriesCount = this.db.Categories.Count(),
-                RecipeImagesCount = this.db.RecipeImages.Count(),
-                IngredientsCount = this.db.Ingredients.Count(),
-                RecipesCount = this.db.Recipes.Count(),
-                ProductsCount = this.db.Products.Count(),
-                ProductImagesCount = this.db.ProductImages.Count(), 
+                CategoriesCount = countsDto.CategoriesCount,
+                ProductImagesCount = countsDto.ProductImagesCount,
+                RecipeImagesCount = countsDto.RecipeImagesCount,
+                RecipesCount = countsDto.RecipesCount,
+                IngredientsCount = countsDto.IngredientsCount,
+                ProductsCount = countsDto.ProductsCount,
             };
             return this.View(viewModel);
         }

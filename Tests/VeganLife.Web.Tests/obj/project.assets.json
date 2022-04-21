@@ -4089,7 +4089,8 @@
         "dependencies": {
           "VeganLife.Data.Common": "1.0.0",
           "VeganLife.Data.Models": "1.0.0",
-          "VeganLife.Services.Mapping": "1.0.0"
+          "VeganLife.Services.Mapping": "1.0.0",
+          "VeganLife.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VeganLife.Services.Data.dll": {}

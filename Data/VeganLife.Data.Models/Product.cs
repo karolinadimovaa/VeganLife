@@ -15,6 +15,5 @@
         public string Description { get; set; }
 
         public ProductImage ProductImage { get; set; }
-
     }
 }

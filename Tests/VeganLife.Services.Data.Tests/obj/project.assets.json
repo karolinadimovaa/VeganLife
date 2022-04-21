@@ -2650,7 +2650,8 @@
         "dependencies": {
           "VeganLife.Data.Common": "1.0.0",
           "VeganLife.Data.Models": "1.0.0",
-          "VeganLife.Services.Mapping": "1.0.0"
+          "VeganLife.Services.Mapping": "1.0.0",
+          "VeganLife.Web.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/VeganLife.Services.Data.dll": {}
@@ -2670,6 +2671,20 @@
         },
         "runtime": {
           "bin/placeholder/VeganLife.Services.Mapping.dll": {}
+        }
+      },
+      "VeganLife.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "VeganLife.Data.Models": "1.0.0",
+          "VeganLife.Services.Mapping": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VeganLife.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VeganLife.Web.ViewModels.dll": {}
         }
       }
     }
@@ -8836,6 +8851,11 @@
       "type": "project",
       "path": "../../Services/VeganLife.Services.Mapping/VeganLife.Services.Mapping.csproj",
       "msbuildProject": "../../Services/VeganLife.Services.Mapping/VeganLife.Services.Mapping.csproj"
+    },
+    "VeganLife.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../../Web/VeganLife.Web.ViewModels/VeganLife.Web.ViewModels.csproj",
+      "msbuildProject": "../../Web/VeganLife.Web.ViewModels/VeganLife.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {

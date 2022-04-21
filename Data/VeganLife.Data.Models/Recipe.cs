@@ -20,11 +20,11 @@
 
         public string Instructions { get; set; }
 
-        public TimeSpan PreparationTime { get; set; }
-
-        public TimeSpan CookingTime { get; set; }
+        public TimeSpan TotalCookingTime { get; set; }
 
         public int PortionsCount { get; set; }
+
+        public int CaloriesPerPortion { get; set; }
 
         public string OriginalUrl { get; set; }
 

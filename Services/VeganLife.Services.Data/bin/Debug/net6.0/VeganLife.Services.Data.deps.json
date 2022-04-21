@@ -11,7 +11,8 @@
           "StyleCop.Analyzers": "1.2.0-beta.312",
           "VeganLife.Data.Common": "1.0.0",
           "VeganLife.Data.Models": "1.0.0",
-          "VeganLife.Services.Mapping": "1.0.0"
+          "VeganLife.Services.Mapping": "1.0.0",
+          "VeganLife.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "VeganLife.Services.Data.dll": {}
@@ -269,6 +270,15 @@
         "runtime": {
           "VeganLife.Services.Mapping.dll": {}
         }
+      },
+      "VeganLife.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "VeganLife.Data.Models": "1.0.0",
+          "VeganLife.Services.Mapping": "1.0.0"
+        },
+        "runtime": {
+          "VeganLife.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -471,6 +481,11 @@
       "sha512": ""
     },
     "VeganLife.Services.Mapping/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VeganLife.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
