@@ -47,7 +47,7 @@
 
         public IActionResult All(int id)
         {
-            return this.Redirect("/");
+            return this.View();
         }
     }
 }
