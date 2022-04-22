@@ -1,5 +1,6 @@
 ﻿namespace VeganLife.Services.Data
 {
+    using Grpc.Core;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -52,6 +53,30 @@
             }
             await this.recipesRepository.AddAsync(recipe);
             await this.recipesRepository.SaveChangesAsync();
+        }
+
+        public IEnumerable<RecipeInListViewModel> GetAll(int page, int itemsPerPage = 12)
+        {
+            var recipes = this.recipesRepository.AllAsNoTracking()
+                .OrderByDescending(x => x.Id)
+                .Skip((page - 1) * itemsPerPage)
+                .Take(itemsPerPage)
+                .Select(x => new RecipeInListViewModel
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Description = x.Instructions,
+                    ImageUrl = x.Images.FirstOrDefault().RemoteImageUrl != null ? 
+                    x.Images.FirstOrDefault().RemoteImageUrl : 
+                    "/images/recipes/" + x.Images.FirstOrDefault().Id + "." + x.Images.FirstOrDefault().Extension,
+                }).ToList();
+            return recipes;
+        }
+
+        public int GetCount()
+        {
+            
+            return this.recipesRepository.All().Count();
         }
     }
 }

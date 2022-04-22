@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yW4Y7/aPcfdozN9iWWr+dib+pOzFZ4J+Fk1veAfsddC/SQgiVlr0/ISqepcbwcyxht1t8QQLJjWcoW21ejPMgA==",
+  "dgSpecHash": "4r0d9WHbp0IDZ6uSV52Ng3/DdYVMv6fqYgxX8FcwSZ0LeZ/javH95TxY7vdtzXmi18fx7BWJyqHBKTx/kjV/KQ==",
   "success": true,
   "projectFilePath": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Data\\VeganLife.Services.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\grpc.core\\2.45.0\\grpc.core.2.45.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\grpc.core.api\\2.45.0\\grpc.core.api.2.45.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.3\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.3.nupkg.sha512",
@@ -29,6 +31,7 @@
     "C:\\Users\\karol\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

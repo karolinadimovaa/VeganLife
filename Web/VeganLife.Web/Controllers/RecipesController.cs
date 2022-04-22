@@ -45,9 +45,17 @@
             return this.Redirect("/");
         }
 
-        public IActionResult All(int id)
+        public IActionResult All(int id = 1)
         {
-            return this.View();
+            const int ItemsPerPage = 4;
+            var viewModel = new RecipesListViewModel
+            {
+                ItemsPerPage = ItemsPerPage,
+                PageNumber = id,
+                RecipesCount = this.recipesService.GetCount(),
+                Recipes = this.recipesService.GetAll(id, ItemsPerPage)
+            };
+            return this.View(viewModel);
         }
     }
 }

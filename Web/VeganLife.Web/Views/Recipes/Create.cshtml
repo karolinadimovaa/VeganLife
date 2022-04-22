@@ -1,4 +1,5 @@
-﻿@model VeganLife.Web.ViewModels.Recipes.CreateRecipeInputModel
+﻿@using Microsoft.Data.SqlClient
+@model VeganLife.Web.ViewModels.Recipes.CreateRecipeInputModel
 @{
     this.ViewData["Title"] = "Add new recipe";
     var categoryItems = this.Model.CategoriesItems.Select(x => new SelectListItem(x.Value, x.Key));
@@ -14,7 +15,7 @@
     </div>
     <div class="form-group">
         <label asp-for="Instructions"></label>
-        <textarea asp-for="Instructions" class="form-control" rows="5"/></textarea>
+        <textarea asp-for="Instructions" class="form-control" rows="5" /></textarea>
         <span asp-validation-for="Instructions" class="text-danger"></span>
     </div>
     <div class="form-group">
@@ -41,17 +42,21 @@
         <label asp-for="Ingredients"></label>
         <a class="btn btn-success" onclick="AddMoreIngredients()">+</a>
     </div>
+    <div>
+    <label class="form-label" for="customFile">Upload photo</label>
+    <input type="file" class="form-control" id="customFile" />
+    </div>
     <input type="submit" class="btn btn-primary" />
 </form>
 
 @section Scripts {
-    <script>
+<script>
 
-        var ingredientIndex = 0;
-        function AddMoreIngredients(){
-            $("#IngredientsContainer").
-            append("<div class='form-control'>Name: <input type='text' name='Ingredients[" + ingredientIndex + "].IngredientName' />Quantity: <input type='text' name='Ingredients[" + ingredientIndex + "].Quantity' /></div>");
-            ingredientIndex++;
-        }
-    </script>
+    var ingredientIndex = 0;
+    function AddMoreIngredients(){
+        $("#IngredientsContainer").
+        append("<div class='form-control'>Name: <input type='text' name='Ingredients[" + ingredientIndex + "].IngredientName' />Quantity: <input type='text' name='Ingredients[" + ingredientIndex + "].Quantity' /></div>");
+        ingredientIndex++;
+    }
+</script>
 }

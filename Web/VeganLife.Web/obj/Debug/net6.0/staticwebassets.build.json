@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aSl/TInEmw1+z19vc3ntBeJ4R/UfZwvWX3bsjzLwFP0=",
+  "Hash": "2DxNj/7U/EWjQCZKxC3LvuDWADTF48R6rFWspN9Zqho=",
   "Source": "VeganLife.Web",
   "BasePath": "_content/VeganLife.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
+    },
+    {
+      "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\css\\style.css",
+      "SourceId": "VeganLife.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\",
+      "BasePath": "_content/VeganLife.Web",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\favicon.ico",

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/nr19QlzEmKzCljIuQxXKPBR+6Fdrd1gtHtQqfnyjJJ2WUvkXSrg3EMd9X2GxKKYyR1SXlA4he3IbK4KMVlXWg==",
+  "dgSpecHash": "9tc8Jh/fqVKJhY7HPYzFQgbveIxvqGWfFbZOZjdv4x3KuO16/vFh93Zqeg5AcBGxMqtb/vEuAPU2FHK+ij5FCw==",
   "success": true,
   "projectFilePath": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\VeganLife.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\grpc.core\\2.45.0\\grpc.core.2.45.0.nupkg.sha512",
+    "C:\\Users\\karol\\.nuget\\packages\\grpc.core.api\\2.45.0\\grpc.core.api.2.45.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
