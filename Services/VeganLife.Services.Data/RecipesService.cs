@@ -21,7 +21,7 @@
             this.ingredientsRepository = ingredientsRepository;
         }
 
-        public async Task CreateAsync(CreateRecipeInputModel input)
+        public async Task CreateAsync(CreateRecipeInputModel input, string userId)
         {
             var recipe = new Recipe
             {
@@ -31,6 +31,7 @@
                 TotalCookingTime = TimeSpan.FromMinutes(input.TotalCookingTime),
                 CaloriesPerPortion = input.CaloriesPerPortion,
                 PortionsCount = input.PortionsCount,
+                AddedByUserId = userId,
             };
 
             foreach (var ingr in input.Ingredients)

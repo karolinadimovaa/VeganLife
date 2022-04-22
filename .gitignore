@@ -36,6 +36,7 @@ bld/
 .vs/
 YourProjectName/.vs
 VeganLife/.vs
+.vs/VeganLife
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
