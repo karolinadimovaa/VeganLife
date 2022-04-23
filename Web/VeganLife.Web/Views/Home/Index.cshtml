@@ -12,7 +12,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="overlay-image" style="background-image:url(https://images.theconversation.com/files/352720/original/file-20200813-22-u6p0qo.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6576%2C4288&q=45&auto=format&w=926&fit=clip);"></div>
-            <div class="container">
+            <div class="container" id="container-carousel-pic">
                 @if (this.User.Identity.IsAuthenticated)
                 {
                     <h1 id="text-carousel"> "Are there health benefits to going vegan?"</h1>
@@ -28,7 +28,7 @@
         </div>
         <div class="carousel-item">
             <div class="overlay-image" style="background-image:url(https://veann.com/wp-content/uploads/2017/12/shutterstock_641257942-1-750x500.jpg);"></div>
-            <div class="container">
+            <div class="container" id="container-carousel-pic">
                 @if (this.User.Identity.IsAuthenticated)
                 {
                     <h1 id="text-carousel">Vegan Lifestyle: Why Veganism Is More Than a Diet</h1>
@@ -50,6 +50,50 @@
         <span class="sr-only">Previous</span>
         <span class="carousel-control-next-icon aria-hidden="true"></span>
     </a>
+</div>
+<div class="row">
+    <div class="card" style="width: 18rem;">
+        <img src="https://121clicks.com/wp-content/uploads/2022/03/vegan_food_photography_andy_featured.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Well-planned vegan diets follow healthy eating guidelines, and contain all the nutrients that our bodies need.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Vegan_dish_%2842019058960%29.jpg/1200px-Vegan_dish_%2842019058960%29.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">If you invite a dinner guest who's a vegan, you'll want to check your menu carefully to make sure it follows two basic rules.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="https://images.firstpost.com/wp-content/uploads/2019/11/Vegan380GettyImages.jpg?impolicy=website&width=1200&height=800" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Living a vegan lifestyle means that you are not contributing to the many negative environmental impacts of the animal industry.</p>
+        </div>
+    </div>
+    @*<div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/1049/images/Vz72pXU1T6WSatX1jjK2_IqV6qOzRHummiwF44t2w_why-vegan-vegetarian-diet-bad-avoid-eat-meat-8-reasons-alexfergus-alex-fergus-cover.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Why do you have to become a vegan?</h5>
+        <p class="card-text">Well-planned vegan diets follow healthy eating guidelines, and contain all the nutrients that our bodies need. Both the British Dietetic Associati...</p>
+        <a href="https://www.vegansociety.com/go-vegan/why-go-vegan" class="btn btn-secondary">Check article/a>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://i.guim.co.uk/img/media/fd112c7dc16ce15b9a8856bc02eb989d9b201684/0_0_4394_2638/master/4394.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=abb0d1a1adc7d8e34bfb70bed99662cd" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Idea for your vegan diet</h5>
+        <p class="card-text">If you invite a dinner guest who's a vegan, you'll want to check your menu carefully to make sure it follows two basic rules. Foods from plants...</p>
+        <a href="https://www.webmd.com/diet/vegan-diet-overview" class="btn btn-secondary">Check article/a>
+        </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/1049/images/Vz72pXU1T6WSatX1jjK2_IqV6qOzRHummiwF44t2w_why-vegan-vegetarian-diet-bad-avoid-eat-meat-8-reasons-alexfergus-alex-fergus-cover.jpg" alt="Card image cap">
+        <div class="card-body">
+        <h5 class="card-title">Vegan diets</h5>
+        <p class="card-text">Well-planned vegan diets follow healthy eating guidelines, and contain all the nutrients that our bodies need. Both the British Dietetic Associati...</p>
+        <a href="#" class="btn btn-secondary">Check article/a>
+        </div>
+        </div>*@
 </div>
 </html>
 

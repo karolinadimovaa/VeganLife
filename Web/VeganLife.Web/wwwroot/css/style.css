@@ -54,7 +54,7 @@ body {
     margin-top: 0;
     margin-left: calc(50% - 50vw);
     width: 100vw;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .carousel-item {
     background: #000;
@@ -63,15 +63,16 @@ body {
     position: relative;
 }
 
-.container{
+#container-carousel-pic {
     position: absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    padding-bottom:50px;
+    bottom: 0;
+    left: 0;
+    bg-primary, .btn-primary, .btn-white:hover right: 0;
+    padding-bottom: 50px;
 }
 #text-carousel {
     color: #e8ebe9;
+    padding-left: 100px;
 }
 .overlay-image {
     position: absolute;
@@ -82,6 +83,15 @@ body {
     background-position: center;
     background-size: cover;
     opacity: 0.5;
+}
+.row {
+    position: relative;
+    padding: 30px;
+    margin: 20px;
+}
+.card {
+    margin: 20px;
+    padding: 30px;
 }
 /*#carousel-body {
     padding-top: 0;
