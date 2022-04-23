@@ -3,11 +3,54 @@
 @{
     this.ViewData["Title"] = "Home Page";
 }
-<div class="text-center">
-    <h1 class="display-4">Welcome to @GlobalConstants.SystemName!</h1>
-    <p>We have:</p>
-    <ul>
-        
-
-    </ul>
+<html>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="overlay-image" style="background-image:url(https://images.theconversation.com/files/352720/original/file-20200813-22-u6p0qo.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C6576%2C4288&q=45&auto=format&w=926&fit=clip);"></div>
+            <div class="container">
+                @if (this.User.Identity.IsAuthenticated)
+                {
+                    <h1 id="text-carousel"> "Are there health benefits to going vegan?"</h1>
+                    <p id="text-carousel">The number of people cutting down on meat and dairy, or cutting these foods from their diets entirely, has been rising over the last decade. The number of vegans in the UK, for example, quadrupled between 2006 and 2018, according to research by The Vegan Society.</p>
+                }
+                else
+                {
+                    <h1 id="text-carousel">Sing up or login in to start you vegan journey.</h1>
+                    <p id="text-carousel">That way you will be able to see some veggie products, see our recipes and you will have the opportunity to make one.</p>
+                }
+                @*<a href="#" class="btn btn-lg btn-primary">Sign up today</a>*@
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url(https://veann.com/wp-content/uploads/2017/12/shutterstock_641257942-1-750x500.jpg);"></div>
+            <div class="container">
+                @if (this.User.Identity.IsAuthenticated)
+                {
+                    <h1 id="text-carousel">Vegan Lifestyle: Why Veganism Is More Than a Diet</h1>
+                    <p id="text-carousel">That way you will be able to see some veggie products, see our recipes and you will have the opportunity to make one.</p>
+                }
+                else
+                {
+                    <h1 id="text-carousel">Sing up or login in to start you vegan journey.</h1>
+                    <p id="text-carousel">That way you will be able to see some veggie products, see our recipes and you will have the opportunity to make one.</p>
+                }
+            </div>
+        </div>
+    </div>
+    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+        <span class="sr-only">Previous</span>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+        <span class="sr-only">Previous</span>
+        <span class="carousel-control-next-icon aria-hidden="true"></span>
+    </a>
 </div>
+</html>
+
+

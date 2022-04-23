@@ -13,7 +13,7 @@
 <body>
     <div class="main-navigation" id="mainmenu-area">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable" #navigation>
 
                 <a class="navbar-brand d-lg-none d-block" href="">
                     <h4>Rapoo</h4>
@@ -26,12 +26,12 @@
                 <!-- Collapse -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
-                    <ul class="navbar-nav ">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Home
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                    <ul class="navbar-nav ml-lg-auto list-unstyled m-0">
+                        @*<li class="nav-item dropdown">*@
+                            @*<a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Choose
+                            </a>*@
+                            @*<div class="dropdown-menu" aria-labelledby="navbarWelcome">
                                  <a class="dropdown-item " href="index.html">
                                     Home-1
                                 </a>
@@ -44,40 +44,45 @@
                                 <a class="dropdown-item " href="index-4.html">
                                     Home-4
                                 </a>
-                            </div>
-                        </li>
+                            </div>*@
+                        @*</li>*@
                         <li class="nav-item ">
-                            <a class="nav-link js-scroll-trigger" asp-controller="Home" asp-action="Index">Home>
-                                About
+                            <a class="nav-link js-scroll-trigger" asp-controller="Home" asp-action="Index">
+                                Home
+                            </a>
+                        </li>
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item ">
+                            <a class="nav-link js-scroll-trigger" asp-controller="Shop" asp-action="Shop">
+                                Vegan Store
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a href="service.html" class="nav-link js-scroll-trigger">
-                                Services
-                            </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a href="pricing.html" class="nav-link js-scroll-trigger">
-                                Pricing
-                            </a>
-                        </li>
-
-                        <li class="nav-item ">
-                            <a href="project.html" class="nav-link js-scroll-trigger">
-                                Projects
+                            <a class="nav-link js-scroll-trigger" asp-controller="Recipes" asp-action="All">
+                                Some Recepies
                             </a>
                         </li>
 
                         <li class="nav-item ">
-                            <a href="contact.html" class="nav-link">
-                                Contact
+                            <a class="nav-link js-scroll-trigger" asp-controller="Recipes" asp-action="Create">
+                                Create a recipe
+                            </a>
+                        </li>
+                        }
+
+
+                        <li class="nav-item ">
+                            <a class="nav-link" asp-controller="Home" asp-action="AboutUs">
+                                About us
                             </a>
                         </li>
                     </ul>
+                    <partial name="_LoginPartial" />
 
-                    <ul class="ml-lg-auto list-unstyled m-0">
+                    @*<ul class="ml-lg-auto list-unstyled m-0">
                         <li><a href="#" class="btn btn-white btn-circled">Get a quote</a></li>
-                    </ul>
+                    </ul>*@
                 </div> <!-- / .navbar-collapse -->
             </nav>
         </div> <!-- / .container -->

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2DxNj/7U/EWjQCZKxC3LvuDWADTF48R6rFWspN9Zqho=",
+  "Hash": "gXnWlf37qKxqIEK1LnHbjve+XTMXsN+uHrVoy+h6eVI=",
   "Source": "VeganLife.Web",
   "BasePath": "_content/VeganLife.Web",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\NewIcon.ico",
+      "SourceId": "VeganLife.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\",
+      "BasePath": "_content/VeganLife.Web",
+      "RelativePath": "NewIcon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NewIcon.ico"
     },
     {
       "Identity": "C:\\Users\\karol\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.3\\staticwebassets\\V5\\css\\site.css",

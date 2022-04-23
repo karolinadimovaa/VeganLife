@@ -28,6 +28,7 @@ namespace VeganLife.Web.Controllers
             viewModel.CategoriesItems = this.categoriesService.GetAllAsKeyValuePairs();
             return this.View(viewModel);
         }
+
         [HttpPost]
         public async Task<IActionResult> AboutUs(CreateRecipeInputModel input)
         {
