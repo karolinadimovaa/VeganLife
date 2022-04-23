@@ -2,12 +2,12 @@
 @{
     this.ViewData["Title"] = "Vegan Recepies";
 }
-<h1>All the vegan recipes you need for your veggie lifestyle.</h1>
+<h1 #allRecipes>All the vegan recipes you need for your veggie lifestyle.</h1>
 <hr />
 <div class="row">
     @foreach(var recipe in this.Model.Recipes)
     {
-        <div class="card col-md-6" style="width: 18rem;">
+        <div class="card col-md-4" style="width: 18rem;">
             <img class="card-img-top" src="@recipe.ImageUrl" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">@recipe.Name</h5>
