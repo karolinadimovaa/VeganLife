@@ -8,6 +8,7 @@
     using System.Threading.Tasks;
     using VeganLife.Data.Common.Repositories;
     using VeganLife.Data.Models;
+    using VeganLife.Services.Mapping;
     using VeganLife.Web.ViewModels.Recipes;
 
     public class RecipesService : IRecipesService
@@ -77,6 +78,12 @@
         {
             
             return this.recipesRepository.All().Count();
+        }
+
+        public T GetOneRecipe<T>(int id)
+        {
+            var singleRecipe = this.recipesRepository.All().Where(x => x.Id == id).To<T>().FirstOrDefault();
+            return singleRecipe;
         }
     }
 }

@@ -57,9 +57,10 @@
             };
             return this.View(viewModel);
         }
-        public IActionResult OneRecipe()
+        public IActionResult OneRecipe(int id)
         {
-            return this.View();
+            var singleRecipe = this.recipesService.GetOneRecipe<OneRecipeViewModel>(id);
+            return this.View(singleRecipe);
         }
     }
 }

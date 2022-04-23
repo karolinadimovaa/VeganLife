@@ -10,7 +10,7 @@
         <div class="card col-md-4" style="width: 18rem;">
             <img class="card-img-top" src="@recipe.ImageUrl" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">@recipe.Name</h5>
+                <h5 class="card-title"><a asp-action="OneRecipe" asp-route-id="@recipe.Id">@recipe.Name</a></h5>
                 <a href="#" class="btn btn-primary">Read recipe</a>
             </div>
         </div>

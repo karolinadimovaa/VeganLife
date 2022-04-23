@@ -14,5 +14,6 @@
         IEnumerable<RecipeInListViewModel> GetAll(int page, int itemsPerPage = 12);
 
         int GetCount();
+        T GetOneRecipe<T>(int id);
     }
 }
