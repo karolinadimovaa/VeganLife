@@ -57,5 +57,9 @@
             };
             return this.View(viewModel);
         }
+        public IActionResult OneRecipe()
+        {
+            return this.View();
+        }
     }
 }

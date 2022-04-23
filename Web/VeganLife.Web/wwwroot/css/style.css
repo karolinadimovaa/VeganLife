@@ -30,7 +30,7 @@ Version      : 1.0
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
 
 html {
-    font-family: sans-serif;
+    font-family: Papyrus, fantasy;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -39,7 +39,7 @@ html {
 }
 
 body {
-    font-family: "Muli", sans-serif;
+    font-family: Papyrus, fantasy;
     font-size: 15px;
     line-height: 1.75;
     margin: 0;
@@ -113,6 +113,11 @@ body {
     margin: 20px;
     padding: 30px;
 }
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
 /*#carousel-body {
     padding-top: 0;
     margin-top: 0;
@@ -143,7 +148,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Muli", sans-serif;
+    font-family: Papyrus, fantasy;
     font-weight: 700;
     line-height: 1.35;
     margin-bottom: .5rem;
@@ -357,11 +362,11 @@ img {
 }
 
 .bg-primary {
-    background: #21c87a !important;
+    background: #93c49b !important;
 }
 
 a {
-    color: #21c87a;
+    color: #93c49b;
 }
 
     a:hover, a:focus {
@@ -382,7 +387,7 @@ a {
     }
 
         .header-socials li a {
-            color: #21c87a;
+            color: #93c49b;
         }
 
 /*-----------------
@@ -402,7 +407,7 @@ a {
 
 .icon-block {
     margin-right: 20px;
-    color: #21c87a;
+    color: #93c49b;
     font-size: 40px;
     line-height: 20px;
     font-weight: 400;
@@ -426,7 +431,7 @@ a {
  HOME-3
 ---------------------------*/
 .header-white {
-    background: #21c87a;
+    background: #93c49b;
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
 }
@@ -738,7 +743,7 @@ PAGE BANNER
     .dropdown-item:hover {
         color: #fff;
         text-decoration: none;
-        background-color: #21c87a;
+        background-color: #93c49b;
     }
 
 /*----------------------
@@ -834,7 +839,7 @@ PAGE BANNER
         position: absolute;
         content: "";
         top: -27px;
-        background-color: #21c87a;
+        background-color: #93c49b;
         opacity: .3;
         width: 80px;
         right: 70px;
@@ -859,7 +864,7 @@ ABOUT-2
 }
 
     #about .img-block img {
-        border: 5px solid #21c87a;
+        border: 5px solid #93c49b;
     }
 
 .pt-6 {
@@ -874,7 +879,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-    color: #21c87a;
+    color: #93c49b;
     margin-bottom: 10px;
     font-weight: 300;
 }
@@ -905,7 +910,7 @@ h5.subtitle {
     font-size: 25px;
     width: 50px;
     height: 50px;
-    background: #21c87a;
+    background: #93c49b;
     text-align: center;
     border-radius: 50%;
     padding-top: 5px;
@@ -969,7 +974,7 @@ h5.subtitle {
     }
 
         .web-service-block:hover i {
-            color: #21c87a;
+            color: #93c49b;
         }
 
         .web-service-block:hover h3 {
@@ -1051,7 +1056,7 @@ h5.subtitle {
 }
 
     .project-content-block h4 {
-        color: #21c87a;
+        color: #93c49b;
     }
 
     .project-content-block p {
@@ -1089,7 +1094,7 @@ h5.subtitle {
         position: absolute;
         left: 30px;
         top: -23px;
-        background: #21c87a;
+        background: #93c49b;
         color: #fff;
     }
 
@@ -1200,10 +1205,10 @@ h5.subtitle {
         .price-features li:before {
             position: absolute;
             content: "\f00c";
-            font-family: "Font Awesome 5 Free";
+            font-family: Papyrus, fantasy;
             left: 0px;
             top: 5px;
-            color: #21c87a;
+            color: #93c49b;
             font-weight: 900;
         }
 
@@ -1289,7 +1294,7 @@ PRICING-2
 }
 
 .blog-content:hover a h3 {
-    color: #21c87a;
+    color: #93c49b;
 }
 
 .blog-content h6 span {
@@ -1386,11 +1391,11 @@ CONTACT PAGE
         font-size: 40px;
         margin-bottom: 20px;
         display: block;
-        color: #21c87a;
+        color: #93c49b;
     }
 
 .form-control:focus, .form-control:hover {
-    border-color: #21c87a;
+    border-color: #93c49b;
     box-shadow: none;
 }
 
@@ -1471,7 +1476,7 @@ CONTACT PAGE
     }
 
 .current-year {
-    color: #21c87a !important;
+    color: #93c49b !important;
 }
 
 /*-----------------------------
@@ -1483,7 +1488,7 @@ CONTACT PAGE
     right: 30px;
     bottom: 50px;
     z-index: 999;
-    background: #21c87a;
+    background: #93c49b;
     color: #fff !important;
     border-radius: 100%;
     opacity: 0;
@@ -1803,7 +1808,7 @@ CONTACT PAGE
 
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #93c49b;
     }
 
     #map {
@@ -1843,7 +1848,7 @@ CONTACT PAGE
 
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #93c49b;
     }
 
     .top-info-block {
@@ -2128,7 +2133,7 @@ CONTACT PAGE
 
     .navbar-collapse.collapse.show {
         padding-bottom: 30px;
-        background: #21c87a;
+        background: #93c49b;
     }
 
     .web-service-block {
