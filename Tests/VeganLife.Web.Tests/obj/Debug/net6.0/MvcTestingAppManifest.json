@@ -3,11 +3,11 @@
   "VeganLife.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Data\\VeganLife.Data.Common",
   "VeganLife.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Data\\VeganLife.Data",
   "VeganLife.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Data\\VeganLife.Data.Models",
-  "VeganLife.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Data",
+  "VeganLife.Services.Data": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Data",
   "VeganLife.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services",
   "VeganLife.Services.Mapping, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Mapping",
   "VeganLife.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Services\\VeganLife.Services.Messaging",
-  "VeganLife.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web",
+  "VeganLife.Web": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web",
   "VeganLife.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web.Infrastructure",
   "VeganLife.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web.ViewModels"
 }

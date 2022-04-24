@@ -26,7 +26,7 @@
         public int PortionsCount { get; set; }
 
         [Required]
-        public IFormFile Images { get; set; }
+        public IEnumerable<IFormFile> Images { get; set; }
 
         [Range(1, 10000)]
         public int CaloriesPerPortion { get; set; }

@@ -3,6 +3,7 @@
     using Grpc.Core;
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
@@ -16,14 +17,15 @@
         private readonly IDeletableEntityRepository<Recipe> recipesRepository;
         private readonly IDeletableEntityRepository<Ingredient> ingredientsRepository;
 
-        public RecipesService(IDeletableEntityRepository<Recipe> recipesRepository,
+        public RecipesService(
+            IDeletableEntityRepository<Recipe> recipesRepository,
             IDeletableEntityRepository<Ingredient> ingredientsRepository)
         {
             this.recipesRepository = recipesRepository;
             this.ingredientsRepository = ingredientsRepository;
         }
 
-        public async Task CreateAsync(CreateRecipeInputModel input, string userId)
+        public async Task CreateAsync(CreateRecipeInputModel input, string userId, string imagePath)
         {
             var recipe = new Recipe
             {
@@ -36,10 +38,27 @@
                 AddedByUserId = userId,
             };
 
-            //foreach (var image in input.Images)
-            //{
+            var allowedExtensions = new[] { "jpg", "png" };
+            Directory.CreateDirectory($"{imagePath}/recipes/");
+            foreach (var image in input.Images)
+            {
+                var extension = Path.GetExtension(image.FileName).TrimStart('.');
+                if (!allowedExtensions.Any(x => extension.EndsWith(x)))
+                {
+                    throw new Exception($"Invalid image extension {extension}");
+                };
+                var imageInDb = new RecipeImage()
+                {
+                    Extension = extension,
+                };
+                recipe.Images.Add(imageInDb);
 
-            //}
+                var physicalPath = $"{imagePath}/recipes/{imageInDb.Id}.{extension}";
+                using (Stream fileStream = new FileStream(physicalPath, FileMode.Create))
+                {
+                    await image.CopyToAsync(fileStream);
+                }
+            }
 
             foreach (var ingr in input.Ingredients)
             {
@@ -51,6 +70,7 @@
                         Name = ingr.IngredientName,
                     };
                 }
+
                 recipe.Ingredients.Add(new RecipeIngredient
                 {
                     Ingredient = ingredient,
@@ -73,15 +93,15 @@
                     Id = x.Id,
                     Name = x.Name,
                     Description = x.Instructions,
-                    ImageUrl = x.Images.FirstOrDefault().RemoteImageUrl != null ? 
-                    x.Images.FirstOrDefault().RemoteImageUrl : 
+                    ImageUrl = x.Images.FirstOrDefault().RemoteImageUrl != null ?
+                    x.Images.FirstOrDefault().RemoteImageUrl :
                     "/images/recipes/" + x.Images.FirstOrDefault().Id + "." + x.Images.FirstOrDefault().Extension,
                 }).ToList();
             return recipes;
         }
 
         public int GetCount()
-        {         
+        {
             return this.recipesRepository.All().Count();
         }
 

@@ -28,20 +28,5 @@ namespace VeganLife.Web.Controllers
             viewModel.CategoriesItems = this.categoriesService.GetAllAsKeyValuePairs();
             return this.View(viewModel);
         }
-
-        [HttpPost]
-        public async Task<IActionResult> AboutUs(CreateRecipeInputModel input)
-        {
-            if (!this.ModelState.IsValid)
-            {
-                input.CategoriesItems = this.categoriesService.GetAllAsKeyValuePairs();
-                return this.View(input);
-            }
-            var user = await this.userManager.GetUserAsync(this.User);
-            await this.recipesService.CreateAsync(input, user.Id);
-
-            // TODO: Redirect to recipe info page
-            return this.Redirect("/");
-        }
     }
 }

@@ -9,7 +9,7 @@
 
     public interface IRecipesService
     {
-        Task CreateAsync(CreateRecipeInputModel input, string userId);
+        Task CreateAsync(CreateRecipeInputModel input, string userId, string imagePath);
 
         IEnumerable<RecipeInListViewModel> GetAll(int page, int itemsPerPage = 12);
 

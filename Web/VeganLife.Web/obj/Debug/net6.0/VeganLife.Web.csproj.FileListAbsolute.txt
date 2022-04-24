@@ -571,7 +571,6 @@ C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.Gen
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.AssemblyInfoInputs.cache
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.AssemblyInfo.cs
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.csproj.CoreCompileInputs.cache
-C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.RazorAssemblyInfo.cache
 C:\SoftUniProject\VeganLife\Web\VeganLife.Web\obj\Debug\net6.0\VeganLife.Web.RazorAssemblyInfo.cs

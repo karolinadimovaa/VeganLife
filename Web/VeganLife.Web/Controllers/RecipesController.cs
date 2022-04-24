@@ -1,8 +1,10 @@
 ﻿namespace VeganLife.Web.Controllers
 {
     using Microsoft.AspNetCore.Authorization;
+    using Microsoft.AspNetCore.Hosting;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
+    using System;
     using System.Threading.Tasks;
     using VeganLife.Data.Models;
     using VeganLife.Services.Data;
@@ -13,12 +15,14 @@
         private readonly ICategoriesService categoriesService;
         private readonly IRecipesService recipesService;
         private readonly UserManager<ApplicationUser> userManager;
+        private readonly IWebHostEnvironment environment;
 
-        public RecipesController(ICategoriesService categoriesService, IRecipesService recipesService, UserManager<ApplicationUser> userManager)
+        public RecipesController(ICategoriesService categoriesService, IRecipesService recipesService, UserManager<ApplicationUser> userManager, IWebHostEnvironment environment)
         {
             this.categoriesService = categoriesService;
             this.recipesService = recipesService;
             this.userManager = userManager;
+            this.environment = environment;
         }
 
         [Authorize]
@@ -38,9 +42,18 @@
                 input.CategoriesItems= this.categoriesService.GetAllAsKeyValuePairs();
                 return this.View(input);
             }
-            var user = await this.userManager.GetUserAsync(this.User);
-            await this.recipesService.CreateAsync(input, user.Id);
 
+            var user = await this.userManager.GetUserAsync(this.User);
+            try
+            {
+            await this.recipesService.CreateAsync(input, user.Id, $"{this.environment.WebRootPath}/images");
+            }
+            catch (Exception exception)
+            {
+                this.ModelState.AddModelError(string.Empty, exception.Message);
+                input.CategoriesItems = this.categoriesService.GetAllAsKeyValuePairs();
+                return this.View(input);
+            }
             // TODO: Redirect to recipe info page
             return this.Redirect("/");
         }
