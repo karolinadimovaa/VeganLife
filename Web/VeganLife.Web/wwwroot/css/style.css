@@ -80,6 +80,21 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+#adding-new-recipe-title{
+    margin:auto;
+    text-align:center;
+}
+#button-to-add-recipe {
+    margin:15px;
+    text-align:center;
+}
+.form-group{
+    margin:10px;
+}
+input{
+    text-align:center;
+    margin: 15px;
+}
 #photo-add-recipe {
     width: 100%;
     height: auto;

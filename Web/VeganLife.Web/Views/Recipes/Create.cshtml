@@ -4,9 +4,9 @@
     this.ViewData["Title"] = "Add new recipe";
     var categoryItems = this.Model.CategoriesItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
-<div class=col-md-6>
-    <form method="post" class="col-md-10 offset-md-3" enctype="multipart/form-data">
-        <h1>@this.ViewData["Title"]</h1>
+<div class=col-md-12>
+    <form method="post" enctype="multipart/form-data">
+        <h1 id="adding-new-recipe-title">@this.ViewData["Title"]</h1>
         <div asp-validation-summary=All class="text-danger"></div>
         <div class="form-group">
             <label asp-for="Name"></label>
@@ -45,7 +45,7 @@
         </div>
         <div id="IngredientsContainer">
             <label asp-for="Ingredients"></label>
-            <a class="btn btn-success" onclick="AddMoreIngredients()">+</a>
+            <a id="button-to-add-recipe"class="btn btn-primary btn-sm" onclick="AddMoreIngredients()">+</a>
         </div>
         <input type="submit" class="btn btn-primary" />
         <hr />
