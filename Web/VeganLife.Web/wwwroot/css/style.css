@@ -62,17 +62,30 @@ body {
     color: white;
     position: relative;
 }
-
-#buttonRecipeCount {
-    width: 150px;
-    height: 120px;
-    background-color: #f7f7f7;
-    margin: auto;
-    font-size: 25px;
-    display: flex ;
-    border-color: #93c49b;
-    border-radius: 50%;
-    color: black;
+#allRecipes {
+    margin-top:5px;
+    text-align: center;
+}
+#recipesItselfs {
+    text-align: center;
+}
+#recipeSHowing {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin: 20px; /* Added */
+    padding: 20px;
+}
+#photo-create-divinfo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo-add-recipe {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #container-carousel-pic {
     position: absolute;

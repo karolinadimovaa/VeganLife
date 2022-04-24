@@ -47,7 +47,7 @@
 
         public IActionResult All(int id = 1)
         {
-            const int ItemsPerPage = 4;
+            const int ItemsPerPage = 6;
             var viewModel = new RecipesListViewModel
             {
                 ItemsPerPage = ItemsPerPage,
