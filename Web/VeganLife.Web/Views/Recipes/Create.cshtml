@@ -9,12 +9,12 @@
         <h1 id="adding-new-recipe-title">@this.ViewData["Title"]</h1>
         <div asp-validation-summary=All class="text-danger"></div>
         <div class="form-group">
-            <label asp-for="Name"></label>
+            <label asp-for="Name">Recipe's name</label>
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="Instructions"></label>
+            <label asp-for="Instructions">Instructions:</label>
             <textarea asp-for="Instructions" class="form-control" rows="5" /></textarea>
             <span asp-validation-for="Instructions" class="text-danger"></span>
         </div>
@@ -24,22 +24,22 @@
             <span asp-validation-for="TotalCookingTime" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="PortionsCount"></label>
+            <label asp-for="PortionsCount">Portions</label>
             <input asp-for="PortionsCount" />
             <span asp-validation-for="PortionsCount" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="CaloriesPerPortion"></label>
+            <label asp-for="CaloriesPerPortion">Calories per portion(kcal)</label>
             <input asp-for="CaloriesPerPortion" />
             <span asp-validation-for="CaloriesPerPortion" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="CategoryId"></label>
+            <label asp-for="CategoryId">Reccomended for:</label>
             <select asp-for="CategoryId" class="form-control" asp-items="categoryItems"></select>
             <span asp-validation-for="CategoryId" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label asp-for="Images"></label>
+            <label asp-for="Images">Choose an image</label>
             <input asp-for="Images" class="form-control">
             <span asp-validation-for="Images" class="text-danger"></span>
         </div>

@@ -4,8 +4,6 @@
 }
 
 <body>
-
-    </header>
     <!-- Receipe Content Area -->
     <div class="receipe-content-area">
         <div class="container">
@@ -15,16 +13,16 @@
                     <div class="receipe-headline my-5">
                         <h2>@Model.Name</h2>
                         <div class="receipe-duration">
-                            <h6>Cooking time: @Model.TotalCookingTime mins</h6>
-                            <h6>Portions: @Model.PortionsCount</h6>
-                            <h6>Calories per serving: @Model.CaloriesPerPortion</h6>
+                            <h4>Cooking time: @Model.TotalCookingTime mins</h4>
+                            <h4>Portions: @Model.PortionsCount</h4>
+                            <h4>Calories per serving: @Model.CaloriesPerPortion kcal</h4>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4">
                     <div class="receipe-ratings text-right my-5">
-                        <a class="btn delicious-btn">@Model.CategoryName</a>
+                        <a class="btn delicious-btn">We reccomend you to prepare this for @Model.CategoryName.ToLower()</a>
                     </div>
                 </div>
             </div>
