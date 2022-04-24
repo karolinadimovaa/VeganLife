@@ -53,10 +53,11 @@
                 ItemsPerPage = ItemsPerPage,
                 PageNumber = id,
                 RecipesCount = this.recipesService.GetCount(),
-                Recipes = this.recipesService.GetAll(id, ItemsPerPage)
+                Recipes = this.recipesService.GetAll(id, ItemsPerPage),
             };
             return this.View(viewModel);
         }
+
         public IActionResult OneRecipe(int id)
         {
             var singleRecipe = this.recipesService.GetOneRecipe<OneRecipeViewModel>(id);

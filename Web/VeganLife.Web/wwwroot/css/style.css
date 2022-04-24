@@ -63,6 +63,17 @@ body {
     position: relative;
 }
 
+#buttonRecipeCount {
+    width: 150px;
+    height: 120px;
+    background-color: #f7f7f7;
+    margin: auto;
+    font-size: 25px;
+    display: flex ;
+    border-color: #93c49b;
+    border-radius: 50%;
+    color: black;
+}
 #container-carousel-pic {
     position: absolute;
     bottom: 0;

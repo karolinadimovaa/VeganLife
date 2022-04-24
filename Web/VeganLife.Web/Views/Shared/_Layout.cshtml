@@ -3,14 +3,13 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@this.ViewData["Title"] - @GlobalConstants.SystemName</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 
 </head>
-<body>
     <div class="main-navigation" id="mainmenu-area">
         <div class="container">
             <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary main-nav navbar-togglable" #navigation>
@@ -79,5 +78,4 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js" asp-append-version="true"></script>
     <script src="~/js/site.min.js" asp-append-version="true"></script>
     @await this.RenderSectionAsync("Scripts", required: false)
-</body>
 </html>

@@ -353,6 +353,62 @@
         }
       },
       "BuildBundlerMinifier/3.2.449": {},
+      "Grpc.Core/2.45.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.45.0",
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.45.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Grpc.Core.dll": {}
+        }
+      },
+      "Grpc.Core.Api/2.45.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.45.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Grpc.Core.Api.dll": {}
+        }
+      },
       "Humanizer.Core/2.2.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -3542,9 +3598,11 @@
       },
       "VeganLife.Services.Data/1.0.0": {
         "dependencies": {
+          "Grpc.Core": "2.45.0",
           "VeganLife.Data.Common": "1.0.0",
           "VeganLife.Data.Models": "1.0.0",
-          "VeganLife.Services.Mapping": "1.0.0"
+          "VeganLife.Services.Mapping": "1.0.0",
+          "VeganLife.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "VeganLife.Services.Data.dll": {}
@@ -5369,6 +5427,20 @@
       "sha512": "sha512-uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
       "path": "buildbundlerminifier/3.2.449",
       "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
+    },
+    "Grpc.Core/2.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fu3XbHa2KIk2qDDtGZuKCLoiCD6+BgycyNP63WwOSRWyksf9e5cF3cPKplD6qP+6AaGqOG8rf41r7+vUqAKacg==",
+      "path": "grpc.core/2.45.0",
+      "hashPath": "grpc.core.2.45.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.45.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S+jn8gPFjJW0jRrm4GZpalECsIjqqU/lG5bYg5P8vrCm8648JzDI4jZe2k6Ra24oVjXztJW0tX4zNKWnJC6ipA==",
+      "path": "grpc.core.api/2.45.0",
+      "hashPath": "grpc.core.api.2.45.0.nupkg.sha512"
     },
     "Humanizer.Core/2.2.0": {
       "type": "package",

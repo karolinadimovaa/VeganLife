@@ -38,6 +38,7 @@
         {
             return this.View();
         }
+
         public IActionResult AboutUs()
         {
             return this.View();
