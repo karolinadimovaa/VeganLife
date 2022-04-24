@@ -107,7 +107,7 @@
 
         public T GetOneRecipe<T>(int id)
         {
-            var singleRecipe = this.recipesRepository.All().Where(x => x.Id == id).To<T>().FirstOrDefault();
+            var singleRecipe = this.recipesRepository.AllAsNoTracking().Where(x => x.Id == id).To<T>().FirstOrDefault();
             return singleRecipe;
         }
     }
