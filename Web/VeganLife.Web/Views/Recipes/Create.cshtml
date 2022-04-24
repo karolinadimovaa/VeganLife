@@ -4,7 +4,7 @@
     this.ViewData["Title"] = "Add new recipe";
     var categoryItems = this.Model.CategoriesItems.Select(x => new SelectListItem(x.Value, x.Key));
 }
-<div id="create-divinfo"></div>
+<div id="create-divinfo">
 <form method="post" class="col-md-6 offset-md-3">
     <h1>@this.ViewData["Title"]</h1>
     <div asp-validation-summary=All class="text-danger"></div>
