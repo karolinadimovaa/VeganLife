@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gs8WHZAfYYN3k8TYY4Yawr1xDY62IuKxWVpImeq95AE=",
+  "Hash": "LcpgMc/C2hy+jG9mXV1fpbIr0cuLiSVm2ya4PekBFnk=",
   "Source": "VeganLife.Web",
   "BasePath": "_content/VeganLife.Web",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\recipes\\0c2d350a-5274-482f-8f81-2d49dec012d0.jpg"
+    },
+    {
+      "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\images\\recipes\\d6244a1e-3fcb-4436-9463-425f11ea220c.jpg",
+      "SourceId": "VeganLife.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\",
+      "BasePath": "_content/VeganLife.Web",
+      "RelativePath": "images/recipes/d6244a1e-3fcb-4436-9463-425f11ea220c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\recipes\\d6244a1e-3fcb-4436-9463-425f11ea220c.jpg"
     },
     {
       "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\js\\site.js",
