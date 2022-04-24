@@ -36,6 +36,11 @@
                 AddedByUserId = userId,
             };
 
+            //foreach (var image in input.Images)
+            //{
+
+            //}
+
             foreach (var ingr in input.Ingredients)
             {
                 var ingredient = this.ingredientsRepository.All().FirstOrDefault(x => x.Name == ingr.IngredientName);
@@ -52,6 +57,7 @@
                     Quantity = ingr.Quantity,
                 });
             }
+
             await this.recipesRepository.AddAsync(recipe);
             await this.recipesRepository.SaveChangesAsync();
         }
