@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LcpgMc/C2hy+jG9mXV1fpbIr0cuLiSVm2ya4PekBFnk=",
+  "Hash": "CMtI2B/X5teEMo5ctzdqueYMhKAXRls0o4CQU6ojJ/A=",
   "Source": "VeganLife.Web",
   "BasePath": "_content/VeganLife.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\images\\recipes\\00b85e34-2246-41ae-9110-b7979f282345.jpg",
+      "SourceId": "VeganLife.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\",
+      "BasePath": "_content/VeganLife.Web",
+      "RelativePath": "images/recipes/00b85e34-2246-41ae-9110-b7979f282345.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\recipes\\00b85e34-2246-41ae-9110-b7979f282345.jpg"
     },
     {
       "Identity": "C:\\SoftUniProject\\VeganLife\\Web\\VeganLife.Web\\wwwroot\\images\\recipes\\0c2d350a-5274-482f-8f81-2d49dec012d0.jpg",

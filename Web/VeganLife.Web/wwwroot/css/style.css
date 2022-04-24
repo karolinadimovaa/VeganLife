@@ -100,6 +100,19 @@ body {
     text-align:center;
     padding: 8px;
 }
+#singleRecipeImg {
+    width: 400px;
+    height: auto;
+    text-align:center;
+    border-radius:120px;
+    margin-bottom:-200px;
+}
+#reccomended{
+    margin-top:60px;
+}
+#modelNameTitle {
+    margin-bottom: -200px;
+}
 input {
     text-align: center;
     margin: 15px;

@@ -7,7 +7,14 @@
     <!-- Receipe Content Area -->
     <div class="receipe-content-area">
         <div class="container">
-            <img src="@Model.ImageUrl" class="img-fluid" alt="@Model.Name">
+            <div class="row">
+                <div id="modelNameTitle" class="col-12 col-md-8">
+                    <h2></h2>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img id="singleRecipeImg" src="@Model.ImageUrl" class="img-fluid" alt="@Model.Name">
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 col-md-8">
                     <div class="receipe-headline my-5">
@@ -20,7 +27,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-4">
+                <div id="reccomended"class="col-12 col-md-4">
                     <div class="receipe-ratings text-right my-5">
                         <a class="btn delicious-btn">We reccomend you to prepare this for @Model.CategoryName.ToLower()</a>
                     </div>
@@ -40,12 +47,12 @@
                 <div class="col-12 col-lg-4">
                     <div class="ingredients">
                         <h4>Ingredients</h4>
-                        @foreach(var ingredient in Model.Ingredients)
+                        @foreach (var ingredient in Model.Ingredients)
                         {
                             <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                            <label class="custom-control-label" for="customCheck1">@ingredient.IngredientName @ingredient.Quantity</label>
-                        </div>
+                                <input class="custom-control-input" id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">@ingredient.IngredientName @ingredient.Quantity</label>
+                            </div>
                         }
 
                     </div>
